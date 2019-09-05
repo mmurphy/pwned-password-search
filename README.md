@@ -9,5 +9,9 @@ Hence the reason for writing this tool.
 
 If you are looking for an existing tool, then `look` might be a better one for you, since it's been around for quite a while.
 
+```
+time look -df -t: $(echo -n "p@55word" | openssl sha1 ) pwned-passwords-sha1-ordered-by-hash-v4/pwned-passwords-sha1-ordered-by-hash-v4.txt
+```
+
 I'm using this as an exercise in file handling using golang
 
